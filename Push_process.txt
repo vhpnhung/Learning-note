@@ -1,0 +1,16 @@
+git init                                                    to initialize a local repo
+git add <file>                                              to move files from working tree to index
+git commit [-m <nickname of the added file]                 to move files from index to local repo
+    For new folders:
+    git remote add <nickname of url = 1> <Github url>       to annouce for Python the remote destination
+    git branch -M <name of branch = 2>                      to build a bridge - the branch - between local repo and Github, which will appear in both repos
+    git push --set-upstream <1> <2>                         to push files through the branch (2) to the destination (1)
+git push
+
+
+git status                                                  to view files status
+git branch -a                                               to view all repos (local and remote)
+git remote -v (verbose)                                     to view github url
+
+
+git rm --cached <file>                                      to remove from index (unstage)
